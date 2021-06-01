@@ -5,16 +5,16 @@ try:
         num2 = float(input("Enter Second Number:"))
         result
 
-    if op == "+":
-        result = num1 + num2
-    elif op == "-":
-        result = num1 - num2
-    elif op == "*":
-        result = num1 * num2
-    elif op == "/":
-        result = num1 / num2
-    else:
-        result = "Invaild Operator"
+        if op == "+":
+            result = num1 + num2
+        elif op == "-":
+           result = num1 - num2
+        elif op == "*":
+            result = num1 * num2
+        elif op == "/":
+            result = num1 / num2
+        else:
+            result = "Invaild Operator"
 
 except:
 
