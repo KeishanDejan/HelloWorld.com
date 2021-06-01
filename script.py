@@ -16,7 +16,9 @@ try:
         else:
             result = "Invaild Operator"
 
-        return result
+        print(result)
+
+    calculate()
 
 except ZeroDivisionError as err:
     print(err)
