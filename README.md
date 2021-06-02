@@ -15,6 +15,6 @@ Many students fails to find a way to learn code.
 
 #### -> To Login or SignUp we will be using PHP.
 
-#### -> To a code-editor, we will be using API to       connect a third-man online code-editor.
+#### -> To a code-editor, we will be using API to connect a third-man online code-editor.
 
 #### -> There will be many JS, HTML, CSS, PHP and MORE.
