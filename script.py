@@ -3,7 +3,6 @@ try:
         num1 = float(input("Enter First Number: "))
         op = input("Enter operator: ")
         num2 = float(input("Enter Second Number:"))
-        result = str()
 
         if op == "+":
             result = num1 + num2
@@ -16,9 +15,9 @@ try:
         else:
             result = "Invaild Operator"
 
-        print(result)
+        return result
 
-    calculate()
+    print(calculate())
 
 except ZeroDivisionError as err:
     print(err)
