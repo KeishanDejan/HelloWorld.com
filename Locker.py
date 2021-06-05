@@ -14,7 +14,13 @@ def locker():
         var passwordInput = str(input("Enter password: "))
 
         if userNameInput == User1.userName and passwordInput == User1.password:
+
             view_files = str(input("If you want to view files type 'view files'"))
+            view_files = view_files.lower()
+
+            if view_files == "view files":
+
+                
             
 
         else:
