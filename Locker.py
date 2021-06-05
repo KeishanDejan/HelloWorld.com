@@ -6,6 +6,9 @@ def locker():
     
     choice = input("Type 'login' to Login: ")
     choice = choice.lower()
+
+    players = open("players.txt", "r")
+    students = open("students.txt", "r")
     
     if choice == "login":
 
@@ -19,8 +22,9 @@ def locker():
             view_files = view_files.lower()
 
             if view_files == "view files":
-
                 
+
+
             
 
         else:
