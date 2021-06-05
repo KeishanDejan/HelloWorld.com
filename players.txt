@@ -1,0 +1,6 @@
+ratings:
+
+    prathiyushan: 1042
+    desmanan: 1035
+    Chakeeshan: 1056
+    Mathushan: 697
