@@ -51,3 +51,12 @@ def locker():
 
     else:
         print("Check your spelling")
+
+try:
+    print(locker())
+
+except ValueError as err:
+    print(err)
+
+else:
+    print("Nothing went wrong")
