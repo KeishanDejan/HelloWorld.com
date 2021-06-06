@@ -20,8 +20,10 @@ def locker():
 
         if userNameInput == User1.userName and passwordInput == User1.password:
 
-            view_files = str(input("If you want to view files type 'view files'"))
+            view_files = str(input("If you want to view files type 'view files' If you want to leave type 'stop': "))
             view_files = view_files.lower()
+
+        while True:
 
             if view_files == "view files":
 
@@ -36,9 +38,14 @@ def locker():
                 else:
                     print("Check your spelling")
 
+            elif view_files == "stop":
+
+                break
+
             else:
                 print("Check your spelling")
 
+            
         else:
             print("UserName or Password is incorrect")
 
