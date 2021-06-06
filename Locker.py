@@ -9,6 +9,8 @@ def locker():
 
     players = open("players.txt", "r")
     students = open("students.txt", "r")
+
+    files = ["players.txt", "students.txt"]
     
     if choice == "login":
 
@@ -22,13 +24,23 @@ def locker():
             view_files = view_files.lower()
 
             if view_files == "view files":
-                
 
+                print(files)
+                wanted_files = str(input("Which files is want to view: "))
+                wanted_files = wanted_files.lower()
 
-            
+                if wanted_files == "player.txt":
+                    print(players.readlines())
+                elif wanted_files == "students.txt":
+                    print(students.readlines())
+                else:
+                    print("Check your spelling")
+
+            else:
+                print("Check your spelling")
 
         else:
             print("UserName or Password is incorrect")
 
     else:
-        
+        print("Check your spelling")
